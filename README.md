@@ -1,14 +1,12 @@
 # 必買研究所 Buy Lab JP
 
-一頁式日系品牌介紹網站，提供日本商品排行、在地推薦與價格比較服務的產品預告。
+純 HTML 一頁式日系品牌介紹網站。
 
-## 開發
+## 檔案
 
-```bash
-npm install
-npm run dev
-```
+- `index.html`：完整頁面與 CSS
+- `public/hero-collage.png`：Hero 主視覺
+- `robots.txt`：禁止搜尋引擎爬取
+- `vercel.json`：加入 `X-Robots-Tag` 防索引 Header
 
-## 防搜尋引擎收錄
-
-目前已透過 `robots.txt`、頁面 robots metadata 與 `X-Robots-Tag` 設為 `noindex, nofollow`。
+可直接匯入 Vercel，不需要安裝套件或執行建置。
